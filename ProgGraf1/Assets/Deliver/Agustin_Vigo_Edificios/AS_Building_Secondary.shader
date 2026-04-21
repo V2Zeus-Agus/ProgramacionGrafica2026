@@ -4,7 +4,8 @@ Shader "AS_Building_Secondary"
 {
 	Properties
 	{
-		
+		_BaseColor("BaseColor", Color) = (0.2169811,0.2169811,0.2169811,1)
+
 	}
 	
 	SubShader
@@ -64,7 +65,8 @@ Shader "AS_Building_Secondary"
 				UNITY_VERTEX_OUTPUT_STEREO
 			};
 
-			
+			uniform float4 _BaseColor;
+
 			
 			v2f vert ( appdata v )
 			{
@@ -100,10 +102,9 @@ Shader "AS_Building_Secondary"
 				#ifdef ASE_NEEDS_FRAG_WORLD_POSITION
 				float3 WorldPosition = i.worldPos;
 				#endif
-				float4 color1 = IsGammaSpace() ? float4(0.2169811,0.2169811,0.2169811,0) : float4(0.03864444,0.03864444,0.03864444,0);
 				
 				
-				finalColor = color1;
+				finalColor = _BaseColor;
 				return finalColor;
 			}
 			ENDCG
@@ -115,9 +116,9 @@ Shader "AS_Building_Secondary"
 }
 /*ASEBEGIN
 Version=18900
-171;73;1514;705;821;294.5;1;True;False
-Node;AmplifyShaderEditor.ColorNode;1;-366,-33.5;Inherit;False;Constant;_BaseColor;BaseColor;0;0;Create;True;0;0;0;False;0;False;0.2169811,0.2169811,0.2169811,0;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+166;73;1424;705;821;294.5;1;True;False
+Node;AmplifyShaderEditor.ColorNode;1;-366,-33.5;Inherit;False;Property;_BaseColor;BaseColor;0;0;Create;True;0;0;0;False;0;False;0.2169811,0.2169811,0.2169811,1;0.2169811,0.2169811,0.2169811,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;-86,-30;Float;False;True;-1;2;ASEMaterialInspector;100;1;AS_Building_Secondary;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;False;True;0;1;False;-1;0;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;False;False;False;False;False;False;False;False;False;True;0;False;-1;False;True;0;False;-1;False;True;True;True;True;True;0;False;-1;False;False;False;False;False;False;False;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;False;True;1;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;1;RenderType=Opaque=RenderType;True;2;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;1;LightMode=ForwardBase;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;1;True;False;;False;0
 WireConnection;0;0;1;0
 ASEEND*/
-//CHKSM=6DB44B25C5AFC247379E4BBB13D8DAC1FA25FEE4
+//CHKSM=EB73B43D0C4C6A8A5F9BE1F299986B9D5F362745
