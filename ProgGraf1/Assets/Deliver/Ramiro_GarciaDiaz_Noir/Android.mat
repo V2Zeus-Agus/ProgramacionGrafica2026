@@ -31,6 +31,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _Softness: 0.3
+    - _Sombra1: 0.25
+    - _Sombra2: 0.344
+    - _Sombra3: 0.471
+    - _Sombra4: 0.446
     - _Tolerance: 0.5
     - __dirty: 0
     m_Colors:
