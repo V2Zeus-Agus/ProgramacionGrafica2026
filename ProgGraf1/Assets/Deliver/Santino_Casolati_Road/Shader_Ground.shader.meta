@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 17554e671213c15479e54d25438f9f2e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _BrickHeight: {fileID: 2800000, guid: 231dd91f52e60414aaaaa3dca6e0eb00, type: 3}
+  - _SandHeight: {fileID: 2800000, guid: 9789d23040cb1fb45ad60392430c3c15, type: 3}
+  - _BrickTex: {fileID: 2800000, guid: 691a8d46920a79542ad4e36c394b547a, type: 3}
+  - _SandTex: {fileID: 2800000, guid: 662d72b6ec210cf4cbeec2b4d3cb8b2a, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
