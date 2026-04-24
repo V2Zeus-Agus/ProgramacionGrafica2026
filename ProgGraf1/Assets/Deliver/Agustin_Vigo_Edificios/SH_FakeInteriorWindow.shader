@@ -48,7 +48,7 @@ Shader "SH_FakeInteriorWindow"
 }
 /*ASEBEGIN
 Version=18900
-149;73;1296;626;-820.3732;108.7743;1.591269;False;False
+149;73;1296;626;-985.9387;121.8496;1;False;False
 Node;AmplifyShaderEditor.CommentaryNode;17;254.0862,127.8089;Inherit;False;1063;388.4205;Calcula el desplazamiento según el ángulo de cámara.;7;6;7;9;10;11;3;12;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.ViewDirInputsCoordNode;6;304.0861,256.8088;Inherit;False;Tangent;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.NormalizeNode;7;491.0862,261.8088;Inherit;False;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0
@@ -56,8 +56,8 @@ Node;AmplifyShaderEditor.BreakToComponentsNode;9;653.0862,262.8088;Inherit;False
 Node;AmplifyShaderEditor.DynamicAppendNode;10;826.0862,177.8088;Inherit;False;FLOAT4;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT4;0
 Node;AmplifyShaderEditor.SimpleDivideOpNode;11;983.0858,287.8089;Inherit;False;2;0;FLOAT4;0,0,0,0;False;1;FLOAT;0;False;1;FLOAT4;0
 Node;AmplifyShaderEditor.RangedFloatNode;3;943.6846,400.2294;Inherit;False;Property;_DepthStrength;DepthStrength;1;0;Create;True;0;0;0;False;0;False;0.05;0;0;0;0;1;FLOAT;0
-Node;AmplifyShaderEditor.TextureCoordinatesNode;5;1152.058,-51.82203;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;12;1155.086,350.8089;Inherit;False;2;2;0;FLOAT4;0,0,0,0;False;1;FLOAT;0;False;1;FLOAT4;0
+Node;AmplifyShaderEditor.TextureCoordinatesNode;5;1152.058,-51.82203;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.CommentaryNode;18;1792.557,91.18215;Inherit;False;495.4874;262;Tiñe la textura interior con el color vidrio;2;2;15;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.TexturePropertyNode;1;1521.26,-26.89594;Inherit;True;Property;_InteriorTexture;Interior Texture;0;0;Create;True;0;0;0;False;0;False;None;None;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
 Node;AmplifyShaderEditor.SimpleAddOpNode;13;1383.911,192.3049;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT4;0,0,0,0;False;1;FLOAT4;0
@@ -86,4 +86,4 @@ WireConnection;16;1;4;0
 WireConnection;0;0;15;0
 WireConnection;0;2;16;0
 ASEEND*/
-//CHKSM=1C3E7AC1B2B2FA93512BFE91F2E87F1C2BE37D1C
+//CHKSM=7140990D342B709D627683566A5CF10CB8F086A1
