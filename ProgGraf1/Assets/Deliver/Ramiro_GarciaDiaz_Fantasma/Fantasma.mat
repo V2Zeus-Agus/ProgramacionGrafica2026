@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fantasma
+  m_Shader: {fileID: 4800000, guid: e53e8e0ae3994454682f02fac4ce3598, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0.1
+    - _Cutoff: 5
+    - _Float0: 0.413
+    - _TransAmbient: 0.176
+    - _TransDirect: 0.992
+    - _TransNormalDistortion: 1
+    - _TransScattering: 50
+    - _TransShadow: 0.472
+    - _Translucency: 50
+    - __dirty: 0
+    - _fresnellpower: 1
+    m_Colors: []
+  m_BuildTextureStacks: []
