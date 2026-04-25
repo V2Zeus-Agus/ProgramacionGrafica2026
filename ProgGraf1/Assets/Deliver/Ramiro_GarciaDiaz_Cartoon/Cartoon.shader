@@ -158,7 +158,7 @@ Shader "Cartoon"
 }
 /*ASEBEGIN
 Version=18900
-285;73;1922;931;3320.263;1476.477;2.427899;True;True
+190;72.66667;1280.667;657.6667;2757.8;1295.193;2.427899;False;False
 Node;AmplifyShaderEditor.WorldNormalVector;112;-2309.942,-896.4508;Inherit;False;False;1;0;FLOAT3;0,0,1;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.WorldSpaceLightDirHlpNode;113;-2362.957,-1152.594;Inherit;False;False;1;0;FLOAT;0;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.DotProductOpNode;3;-1940.764,-958.4836;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0
@@ -166,12 +166,12 @@ Node;AmplifyShaderEditor.RangedFloatNode;55;-2633.369,-38.73955;Inherit;False;Pr
 Node;AmplifyShaderEditor.RangedFloatNode;56;-2627.521,274.5529;Inherit;False;Property;_Sombra3;Sombra 3;3;0;Create;True;0;0;0;False;0;False;0.8;0.3;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;54;-2633.412,-372.1696;Inherit;False;Property;_Sombra1;Sombra 1;1;0;Create;True;0;0;0;False;0;False;0.25;0.1;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RegisterLocalVarNode;123;-1688.002,-917.4371;Inherit;False;Dot;-1;True;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.TFHCRemapNode;58;-2302.677,-33.77985;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.TFHCRemapNode;63;-2270.781,280.412;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.TFHCRemapNode;57;-2302.725,-366.9091;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
+Node;AmplifyShaderEditor.GetLocalVarNode;95;-2319.101,140.3223;Inherit;False;123;Dot;1;0;OBJECT;;False;1;FLOAT;0
 Node;AmplifyShaderEditor.GetLocalVarNode;94;-2338.907,-190.8012;Inherit;False;123;Dot;1;0;OBJECT;;False;1;FLOAT;0
 Node;AmplifyShaderEditor.GetLocalVarNode;96;-2266.279,481.1303;Inherit;False;123;Dot;1;0;OBJECT;;False;1;FLOAT;0
-Node;AmplifyShaderEditor.GetLocalVarNode;95;-2319.101,140.3223;Inherit;False;123;Dot;1;0;OBJECT;;False;1;FLOAT;0
+Node;AmplifyShaderEditor.TFHCRemapNode;63;-2270.781,280.412;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
+Node;AmplifyShaderEditor.TFHCRemapNode;58;-2302.677,-33.77985;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
+Node;AmplifyShaderEditor.TFHCRemapNode;57;-2302.725,-366.9091;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.StepOpNode;64;-2075.603,-310.8432;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.StepOpNode;65;-2077.686,-23.32536;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.StepOpNode;66;-2046.865,304.7935;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
@@ -186,8 +186,8 @@ Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;-26.84628,-630.8574;Float;F
 WireConnection;3;0;113;0
 WireConnection;3;1;112;0
 WireConnection;123;0;3;0
-WireConnection;58;0;55;0
 WireConnection;63;0;56;0
+WireConnection;58;0;55;0
 WireConnection;57;0;54;0
 WireConnection;64;0;57;0
 WireConnection;64;1;94;0
@@ -205,4 +205,4 @@ WireConnection;120;0;114;0
 WireConnection;120;1;121;0
 WireConnection;0;13;120;0
 ASEEND*/
-//CHKSM=F3E357167714C4ACF189A99B14C3184710820D33
+//CHKSM=EFA82B068ADE5456BB0DA1D5DBFA2BC069A755B3
