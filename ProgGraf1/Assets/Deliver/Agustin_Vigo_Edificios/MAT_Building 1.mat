@@ -29,5 +29,5 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color0: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 0}
-    - _Vector0: {r: 0.02, g: 0.2, b: 0, a: 0}
+    - _Vector0: {r: 0.035, g: 0.2, b: 0, a: 0}
   m_BuildTextureStacks: []
