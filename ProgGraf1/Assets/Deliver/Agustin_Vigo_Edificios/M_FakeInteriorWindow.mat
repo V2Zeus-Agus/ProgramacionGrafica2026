@@ -68,10 +68,10 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _DepthStrength: -0.14
+    - _DepthStrength: -0.3
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmissionIntensity: -0.35
+    - _EmissionIntensity: -1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
